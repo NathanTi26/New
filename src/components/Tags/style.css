@@ -1,0 +1,16 @@
+.tag {
+    color: white;
+    background-color: #FF6060;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 2px 30px;
+}
+
+@media (max-width:767px) {
+    .tag {
+        font-size: 10px;
+        padding: 2px 22px;
+        min-width: fit-content;
+        border-radius: 5px;
+    }
+}

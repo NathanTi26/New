@@ -1,0 +1,25 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 122px;
+}
+
+.legal-footer {
+    color: white;
+    align-items: flex-end;
+    font-size: 24px;
+}
+
+@media (max-width :768px){
+    .legal-footer {
+        font-size: 12px;
+    }
+}
