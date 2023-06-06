@@ -23,7 +23,7 @@ function Collapse({ collapseTitle, collapseDesc }) {
         <img
           src={arrow}
           className={isOpen ? `${styles.arrow_up}` : `${styles.arrow_down}`}
-          alt="deployer"
+          alt="Afficher"
         />
       </div>
       {isOpen && (

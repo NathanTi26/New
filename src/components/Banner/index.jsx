@@ -6,7 +6,7 @@ function Banner(props) {
   if (props.page === 'home') {
     return (
       <section className="banner">
-        <div className="banner-frame">
+        <div className="banner-box">
           <img
             src={sliderhome}
             className="banner-img"
@@ -14,7 +14,7 @@ function Banner(props) {
             title="Chez vous, partout et ailleurs"
           />
         </div>
-        <div className="banner-frame">
+        <div className="banner-box">
           <p className="banner-title">Chez vous, partout et ailleurs</p>
         </div>
       </section>
@@ -22,11 +22,11 @@ function Banner(props) {
   } else if (props.page === 'about') {
     return (
       <section className="banner-about">
-        <div className="banner-frame-about">
+        <div className="banner-box-about">
           <img
             src={sliderabout}
             className="banner-img-about"
-            alt="Bannière page about"
+            alt="Bannière"
             title="Montagnes"
           />
         </div>
