@@ -5,7 +5,7 @@ import Collapse from '../../components/Collapse'
 import Error from '../../components/Error'
 import ApartmentsDatas from '../../assets/data/logements.json'
 import React from 'react'
-import '../../style.css'
+import '../../css/style.scss'
 import Tags from '../../components/Tags'
 import Rating from '../../components/Rating'
 

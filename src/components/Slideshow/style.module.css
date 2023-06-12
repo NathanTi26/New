@@ -24,10 +24,12 @@
 
 .prev {
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .next {
-  margin-right: 100px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .number {
