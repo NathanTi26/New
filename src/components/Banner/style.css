@@ -41,6 +41,8 @@
   .banner {
     height: 111px;
     margin-bottom: 22px;
+    margin-right: -20px;
+    margin-left: -20px;
   }
 
   .banner-box {
